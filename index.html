@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#83d8ff">
+  <meta name="description" content="花未了 · 未花互动小玩具。按住画圈甩动未花，切换表情、随机播放语音，让花语飘进星海。">
+  <meta name="application-name" content="花未了">
+  <meta name="apple-mobile-web-app-title" content="花未了">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>花未了 · 未花的星海小憩</title>
+  <link rel="icon" href="./assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="./assets/image/图标.png">
+  <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./assets/css/site.css">
+  <link rel="preload" as="image" href="./assets/image/主背景.png">
+  <script defer src="./assets/js/config.js"></script>
+  <script defer src="./assets/js/app.js"></script>
+</head>
+<body class="home-page">
+  <div class="scene-background" aria-hidden="true"></div>
+  <div class="scene-tint" aria-hidden="true"></div>
+  <div class="screen-frame" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="./index.html" aria-label="花未了首页">
+      <img src="./assets/image/图标.png" width="44" height="44" alt="">
+      <span>MIKA'S PLAYROOM<small>花未了 · 互动空间</small></span>
+    </a>
+    <div class="topbar-actions">
+      <button class="utility-button sound-button" id="soundBtn" type="button" aria-pressed="false">声音开启</button>
+      <button class="utility-button install-button" id="installBtn" type="button">装进桌面</button>
+    </div>
+  </header>
+  <main class="playroom" aria-label="未花互动区">
+    <section class="masthead">
+      <p class="eyebrow"><span></span>A MOMENT WITH MIKA</p>
+      <h1>花未了<span class="title-mark" aria-hidden="true">✦</span></h1>
+      <div class="character-line">
+        <img class="portrait" src="./assets/image/mika2.png" width="920" height="988" alt="开心的未花" draggable="false">
+        <div><span class="character-name">未花</span><span class="character-en">MIKA</span></div>
+      </div>
+      <p class="tagline">一千万<span class="pyroxene-word">青辉石<img src="./assets/image/青辉石.png" width="48" height="48" alt="青辉石" draggable="false"></span>内最好的玩具</p>
+    </section>
+    <canvas id="cv" aria-label="按住画布画圈甩动未花，也可以使用下方的自动甩按钮"></canvas>
+    <div class="voice-panel" role="status" aria-live="polite" aria-atomic="true">
+      <span class="voice-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span id="voiceLabel">等待甩动</span>
+      <span class="play-state" id="playState">未花休息中</span>
+    </div>
+    <p class="hint" id="hint"><span class="gesture-icon" aria-hidden="true">↻</span>按住 · 画圈 · 甩起来 <span class="keyboard-hint">空格键也可以自动甩</span></p>
+    <button class="unlock" id="unlock" type="button" hidden>点一下开声 <span aria-hidden="true">♪</span></button>
+  </main>
+  <footer class="control-dock">
+    <div class="stats" id="stats" hidden>
+      <span class="metric-label">手动甩动</span>
+      <span class="mine" id="stMineWrap"><b id="stMine">0</b><span>圈</span></span>
+    </div>
+    <div class="meter"><span class="metric-label">当前转速</span><b id="rps">0.0</b><span class="metric-unit">圈 / 秒</span></div>
+    <div class="dock-actions">
+      <button class="action-button reset-button" id="resetBtn" type="button">归位</button>
+      <button class="action-button motion-button" id="motionBtn" type="button" aria-pressed="false" style="display:none">甩手机</button>
+      <button class="action-button auto-button" id="autoBtn" type="button" aria-pressed="false" aria-keyshortcuts="Space">自动甩</button>
+    </div>
+  </footer>
+  <div class="bottom-note" aria-hidden="true"><span>FLOWERS NEVER FADE.</span><span>MIKA / 01</span></div>
+  <noscript><div class="noscript-message">请开启 JavaScript 后与未花互动。</div></noscript>
+</body>
+</html>

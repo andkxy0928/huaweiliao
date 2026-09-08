@@ -1,0 +1,80 @@
+竹知了（zhuzhiliao）源码使用许可
+Zhuzhiliao Source-Available License
+
+版权所有 (c) 2026 imsai-sh
+保留所有权利 / All rights reserved.
+
+需要授权请通过本项目仓库的 Issue 联系作者。
+For permissions, contact the author via an issue in this repository.
+
+本软件源码公开，供学习和交流之用。**本许可不是开源许可**，不符合 OSI 的开源定义。
+除本许可明确授予的权利外，作者保留全部权利。
+
+────────────────────────────────────────────────────────
+一、授予的权利
+
+在完整遵守本许可的前提下，任何人可以：
+
+1. 阅读、研究本软件的源码；
+2. 在自己拥有或控制的设备上本地运行本软件；
+3. 为学习、研究或个人使用的目的修改本软件。
+
+二、未授予的权利（须事先取得作者书面授权）
+
+1. 再分发本软件或其修改版——无论是否收费，无论以源码、编译产物还是打包形式；
+2. 将本软件或其修改版部署到第三方可访问的位置，或据此提供任何形式的对外服务，
+   包括但不限于公开网站、小程序、App、API、SDK；
+3. 任何商业使用，包括在含广告、付费、引流或其他商业目的的场景中使用；
+4. 移除、遮蔽或篡改本软件中的版权声明、作者署名或本许可文件。
+
+三、内容限制
+
+不得使用本软件或其修改版制作、传播侵犯他人合法权益的内容，包括但不限于未经许可
+使用真实人物的姓名、肖像、声音或其他人格标识。违反本条的，其许可自动终止，相关
+内容引发的全部法律责任由行为人自行承担，与作者无关。
+
+四、免责
+
+本软件按"现状"提供，不附带任何明示或默示的担保，包括但不限于适销性、特定用途
+适用性和不侵权的担保。在法律允许的最大范围内，作者不对因使用或无法使用本软件而
+产生的任何直接或间接损害承担责任。
+
+五、其他
+
+本许可自你使用本软件之时生效。违反其中任一条款的，本许可授予的权利即自动终止，
+且须立即停止使用并销毁所持副本。需要超出本许可范围的授权，请联系作者。
+
+════════════════════════════════════════════════════════
+English translation (for reference only; the Chinese text above governs)
+
+The source code of this software is published for study and discussion.
+THIS IS NOT AN OPEN SOURCE LICENSE. All rights not expressly granted below
+are reserved by the author.
+
+1. GRANT. Subject to full compliance with this license, you may: (a) read and
+   study the source code; (b) run the software locally on devices you own or
+   control; (c) modify the software for study, research, or personal use.
+
+2. NOT GRANTED (prior written permission required). You may not: (a) redistribute
+   the software or any modified version, whether or not for a fee, in source,
+   compiled, or packaged form; (b) deploy the software or any modified version
+   anywhere accessible to third parties, or use it to provide any service to
+   others, including public websites, mini-programs, apps, APIs, or SDKs;
+   (c) use it for any commercial purpose, including contexts involving
+   advertising, payment, or traffic acquisition; (d) remove, obscure, or alter
+   any copyright notice, attribution, or this license file.
+
+3. CONTENT RESTRICTION. You may not use the software or any modified version to
+   create or distribute content that infringes the rights of others, including
+   the unauthorized use of a real person's name, likeness, voice, or other
+   attributes of personality. Violation terminates this license automatically,
+   and all resulting liability rests solely with the violator.
+
+4. NO WARRANTY. The software is provided "AS IS", without warranty of any kind,
+   express or implied. To the maximum extent permitted by law, the author shall
+   not be liable for any damages arising from the use of or inability to use
+   the software.
+
+5. TERMINATION. This license takes effect when you use the software. Any breach
+   terminates it automatically; you must then cease use and destroy your copies.
+   For permissions beyond this license, contact the author.

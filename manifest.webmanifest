@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "花未了",
+  "short_name": "花未了",
+  "description": "未花的星海互动小玩具：甩动、切换表情、随机语音与花语飘字。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#233576",
+  "theme_color": "#83d8ff",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

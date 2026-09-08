@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#83d8ff">
+  <title>页面不存在 · 花未了</title>
+  <script>
+    // 未知的多级网址也从站点根目录加载样式；本地文件保持相对路径。
+    if(location.protocol !== 'file:'){
+      const base = document.createElement('base');
+      base.href = '/';
+      document.head.appendChild(base);
+    }
+  </script>
+  <link rel="icon" href="./assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="./assets/image/图标.png">
+  <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body class="error-page">
+  <div class="scene-background" aria-hidden="true"></div>
+  <div class="scene-tint" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="./index.html" aria-label="花未了首页">
+      <img src="./assets/image/图标.png" width="44" height="44" alt="">
+      <span>MIKA'S PLAYROOM<small>花未了 · 互动空间</small></span>
+    </a>
+  </header>
+  <main class="error-layout">
+    <section class="error-card">
+      <div class="error-code" aria-hidden="true">404</div>
+      <p class="eyebrow"><span></span>PAGE NOT FOUND</p>
+      <h1>这里没有花语~</h1>
+      <p class="error-description">你找的页面不存在（404）</p>
+      <a class="back-button" href="./index.html"><span aria-hidden="true">←</span>回去甩花未了</a>
+    </section>
+  </main>
+  <footer class="error-footer">FLOWERS NEVER FADE.</footer>
+</body>
+</html>
